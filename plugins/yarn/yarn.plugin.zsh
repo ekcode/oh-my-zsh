@@ -1,4 +1,6 @@
 alias yi="yarn install"
+alias ya="yarn add"
+alias yr="yarn remove"
 
 _yarn ()
 {
