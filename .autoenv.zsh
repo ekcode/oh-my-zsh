@@ -1,2 +1,2 @@
-echo 'update git repo'
+echo 'git merge upstream master'
 gmum
