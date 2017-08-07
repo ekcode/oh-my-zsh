@@ -1,10 +1,5 @@
 #!/bin/zsh
 
-
-kinit () {
-    command kinit ricardo.kwon 2> /dev/null
-}
-
 adnet-adfit-admin1     () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-admin1.dakao.io }
 adnet-adfit-admin2     () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-admin2.dakao.io }
 adnet-adfit-dg1        () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-dg1.dakao.io }
