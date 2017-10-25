@@ -1,20 +1,27 @@
 #!/bin/zsh
 
-adnet-adfit-admin1     () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-admin1.dakao.io }
-adnet-adfit-admin2     () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-admin2.dakao.io }
-adnet-adfit-dg1        () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-dg1.dakao.io }
-adnet-adfit-front1     () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-front1.dakao.io }
-adnet-adfit-front2     () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-front2.dakao.io }
-adnet-adfit-mocky      () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-mocky.dakao.io }
-adnet-adfit-ora1       () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-ora1.dakao.io }
-adnet-adfit-stage1     () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-stage1.dakao.io }
-adnet-adfit-stage2     () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-stage2.dakao.io }
-adnet-adfit-test1      () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-test1.dakao.io }
-adnet-adfit-test2      () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-test2.dakao.io }
-adnet-adfit-zeppelin01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-zeppelin01.dakao.io }
-adnet-batch-app        () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-batch-app.dakao.io }
-adnet-deploy-app       () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-deploy-app.dakao.io }
-adnet-external-api1    () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-external-api1.dakao.io }
-adnet-external-api2    () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-external-api2.dakao.io }
-adnet-internal-api1    () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-internal-api1.dakao.io }
-adnet-internal-api2    () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-internal-api2.dakao.io }
+adnet-adfit-adminprod01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-adminprod01.dakao.io }
+adnet-adfit-batch () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-batch.dakao.io }
+adnet-adfit-deploy () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-deploy.dakao.io }
+adnet-adfit-dev01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-dev01.dakao.io }
+adnet-adfit-dev02 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-dev02.dakao.io }
+adnet-adfit-exapi01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-exapi01.dakao.io }
+adnet-adfit-exapi02 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-exapi02.dakao.io }
+adnet-adfit-frontprod01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-frontprod01.dakao.io }
+adnet-adfit-frontprod02 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-frontprod02.dakao.io }
+adnet-adfit-inapi01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-inapi01.dakao.io }
+adnet-adfit-inapi02 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-inapi02.dakao.io }
+adnet-adfit-stg01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-stg01.dakao.io }
+
+adfit-adminprod01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-adminprod01.dakao.io }
+adfit-batch () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-batch.dakao.io }
+adfit-deploy () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-deploy.dakao.io }
+adfit-dev01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-dev01.dakao.io }
+adfit-dev02 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-dev02.dakao.io }
+adfit-exapi01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-exapi01.dakao.io }
+adfit-exapi02 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-exapi02.dakao.io }
+adfit-frontprod01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-frontprod01.dakao.io }
+adfit-frontprod02 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-frontprod02.dakao.io }
+adfit-inapi01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-inapi01.dakao.io }
+adfit-inapi02 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-inapi02.dakao.io }
+adfit-stg01 () { ssh -i ~/.ssh/id_rsa_dGate_PC hanadmin@adnet-adfit-stg01.dakao.io }
